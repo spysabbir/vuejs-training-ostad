@@ -1,0 +1,249 @@
+/* Universal Selector */
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Element Selector */
+h4{
+    color: blue;
+}
+h5{
+    background-color: green;
+}
+
+/* Variable */
+:root{
+    --colorRed: rgb(255, 0, 0);
+    --defaultFontSize: 14px;
+}
+
+/* Class Selector */
+.class-one{
+    font-size: 18px;
+    color: brown;
+}
+.class-two{
+    font-size: 22px;
+    color: blue;
+}
+
+/* Id Selector */
+#id-one{
+    font-size: 22px;
+    color: blue;
+}
+#id-two{
+    font-size: 22px;
+    color: blue;
+}
+
+/* Group Selector */
+h4, .class-one, #id-one{
+    background-color: gray;
+}
+
+/* Background Properties */
+.background-class-one{
+    background-color: blueviolet;
+    width: 120px;
+    height: 120px;
+}
+.background-class-two{
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 150px;
+    height: 150px;
+}
+
+/* Border Properties */
+.border-class-one{
+    border-style: double;
+}
+
+/* Border Radius Properties */
+.border-radius-class-one{
+    border-radius: 25px 25px 20px 25px;
+    background-color: chartreuse;
+    width: 150px;
+    height: 150px;
+}
+
+/* Display Properties */
+.display-class-one h6{
+    /* display: none; */
+    /* display: block; */
+    /* display: inline; */
+    display: inline-block;
+    background-color: red;
+}
+
+/* Cursor Properties */
+/* Note: Check inline css*/
+.cursor-class-one h6{
+    display: inline;
+    background-color: gray;
+}
+
+/* Float Properties */
+.float-class-one img{
+    /* float: left;
+    float: right;
+    float: inherit; */
+    float: initial;
+}
+
+/* Fonts Properties */
+.fonts-class-one p{
+   font-size: 18px;
+   font-weight: 700;
+   font-variant: small-caps;
+   color: blueviolet;
+   font-style: italic;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* Hover Properties */
+.hover-class-one button{
+    color: red;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 5px;
+}
+.hover-class-one button:hover{
+    color: white;
+    background-color: blue;
+}
+
+/* Important Properties */
+.important-class-one button{
+    color: white !important;
+    background-color: blue !important;
+}
+.important-class-one button{
+    color: red;
+    background-color: chartreuse;
+}
+
+/* Line Height Properties */
+.line-height-class-one p{
+    /* line-height: 15px; */
+    line-height: 30px;
+}
+
+/* Margin Properties */
+.margin-class-one{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    /* margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px; */
+    /* margin: 25px 30px 40px 50px; */
+    margin: 25px auto;
+}
+
+/* Padding Properties */
+.padding-class-one{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    /* padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px; */
+    padding: 25px 30px 40px 50px;
+}
+
+/* Filter Properties */
+.filter-class-one img{
+    width: 250px;
+    height: 250px;
+    /* filter: blur(2px); */
+    /* filter: invert(); */
+    /* filter: saturate(); */
+    filter:grayscale();
+}
+
+/* Overflow Properties */
+.overflow-class-one{
+    width: 250px;
+    height: 150px;
+    background-color: yellowgreen;
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow-x: scroll;
+    overflow-y: auto;
+}
+
+/* Position Properties */
+.position-class-one{
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    position: relative;
+}
+.position-class-two{
+    width: 80px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Word Wrap Properties */
+.word-wrap-class-one{
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    /* word-wrap: normal; */
+    word-wrap: break-word;
+}
+
+/* Justify Content Properties */
+.justify-content-class-one{
+    width: 250px;
+    height: 250px;
+    background-color: yellowgreen;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    justify-content: center;
+}
+.item{
+    background-color: rebeccapurple;
+    width: 25px;
+    height: 25px;
+    margin: 2px;
+}
+
+/* Text Decoration Properties */
+.text-decoration-class-one p{
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    text-decoration: line-through;
+}
+
+/* Word and Letter Spacing Properties */
+.word-and-letter-spacing-class-one p{
+    letter-spacing: normal;
+    /* letter-spacing: -2px; */
+    /* letter-spacing: 20px; */
+
+    word-spacing: normal;
+    word-spacing: 20px;
+}
+
+/* Variable Properties */
+.variable-class-one p{
+    color: var(--colorRed);
+    font-size: var(--defaultFontSize);
+}
