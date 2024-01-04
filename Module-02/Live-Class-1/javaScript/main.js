@@ -1,4 +1,4 @@
-import './style.css'
+// import './style.css'
 import { calculator } from './calculator.js'
 
 document.querySelector('#calculator').innerHTML = `
