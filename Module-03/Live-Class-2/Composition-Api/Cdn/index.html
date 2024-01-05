@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 03 || Live Class 2</title>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div>
+        <h1> Module 03 || Live Class 2 </h1>
+        <h2>Understanding the vue.js applications</h2>
+        <p>
+          <strong>Notte: </strong>Understanding the vue.js applications, different syntax and styles of writing vue.js apps (option, composition, setup script)
+        </p>
+      </div>
+
+    <div id="app">
+        <p>{{ message }}</p>
+        <p>{{ sayHello() }}</p>
+    </div>
+
+    <script>
+        const { createApp } = Vue;
+        const app = createApp({
+            setup() {
+                function sayHello() {
+                    return('Say Hello.')
+                }
+                return {
+                    sayHello,
+                    message: "Hello VueJs."
+                }
+            },
+        }).mount('#app')
+    </script>
+</body>
+</html>
