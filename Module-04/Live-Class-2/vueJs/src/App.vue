@@ -198,35 +198,34 @@
 
 <div>
   <div class="relative mx-auto w-full py-16 px-5 font-sans text-white-800">
-  <h2 class="mb-5 text-center font-sans text-4xl font-bold">Frequently asked Questions</h2>
-  <div class="flex flex-col gap-4">
-    <div class="flex flex-col gap-2 border border-white-400">
-      <div class="p-5 border border-blue-400" @click="activeIndex=0">
-        <h3 class="text-sm text-white-600 cursor-pointer">Is there a free trial with Appsy?</h3>
+    <h2 class="mb-5 text-center font-sans text-4xl font-bold">Frequently asked Questions</h2>
+    <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-2 border border-white-400">
+        <div class="p-5 border border-blue-400" @click="activeIndex=0">
+          <h3 class="text-sm text-white-600 cursor-pointer">Is there a free trial with Appsy?</h3>
+        </div>
+        <div class="p-5" v-show="activeIndex==0">
+          <p class="text-sm">Lorem ipsum, consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+        </div>
       </div>
-      <div class="p-5" v-show="activeIndex==0">
-        <p class="text-sm">Lorem ipsum, consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+      <div class="flex flex-col gap-2 border border-white-400">
+        <div class="p-5 border border-blue-400" @click="activeIndex=1">
+          <h3 class="text-sm text-white-600 cursor-pointer">Is there a free trial with Appsy?</h3>
+        </div>
+        <div class="p-5" v-show="activeIndex==1">
+          <p class="text-sm">Lorem ipsum, consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+        </div>
       </div>
-    </div>
-    <div class="flex flex-col gap-2 border border-white-400">
-      <div class="p-5 border border-blue-400" @click="activeIndex=1">
-        <h3 class="text-sm text-white-600 cursor-pointer">Is there a free trial with Appsy?</h3>
-      </div>
-      <div class="p-5" v-show="activeIndex==1">
-        <p class="text-sm">Lorem ipsum, consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
-      </div>
-    </div>
-    <div class="flex flex-col gap-2 border border-white-400">
-      <div class="p-5 border border-blue-400" @click="activeIndex=2">
-        <h3 class="text-sm text-white-600 cursor-pointer">Is there a free trial with Appsy?</h3>
-      </div>
-      <div class="p-5" v-show="activeIndex==2">
-        <p class="text-sm">Lorem ipsum, consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+      <div class="flex flex-col gap-2 border border-white-400">
+        <div class="p-5 border border-blue-400" @click="activeIndex=2">
+          <h3 class="text-sm text-white-600 cursor-pointer">Is there a free trial with Appsy?</h3>
+        </div>
+        <div class="p-5" v-show="activeIndex==2">
+          <p class="text-sm">Lorem ipsum, consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
 </div>
 </template>
 

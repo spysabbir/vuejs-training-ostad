@@ -270,7 +270,6 @@
 
   <!-- difference between v-if and v-show -->
   <!-- <input type="text" placeholder="Weather Status" class="text-center p-5" v-model="weather"> -->
-
 </template>
 
 <style scoped>

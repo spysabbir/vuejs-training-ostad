@@ -1,32 +1,32 @@
 <script setup>
   // import Image from './components/Image.vue'
   // import Expression from './components/Expression.vue'
-  import Class from './components/Class.vue'
+  // import Class from './components/Class.vue'
 
-  const title = "This is title"
-  const description = "This is description"
+  // const title = "This is title"
+  // const description = "This is description"
 
-  const objectData = {
-    title: "This is object title",
-    description: "This is object description"
-  }
+  // const objectData = {
+  //   title: "This is object title",
+  //   description: "This is object description"
+  // }
 
-  const arrayData = [
-    {
-      title: "This is array title 1",
-      description: "This is array description 1"
-    },
-    {
-      title: "This is array title 2",
-      description: "This is array description 2"
-    }
-  ]
+  // const arrayData = [
+  //   {
+  //     title: "This is array title 1",
+  //     description: "This is array description 1"
+  //   },
+  //   {
+  //     title: "This is array title 2",
+  //     description: "This is array description 2"
+  //   }
+  // ]
 
-  const htmlData = "<strong>08-Jan-2024</strong>"
+  // const htmlData = "<strong>08-Jan-2024</strong>"
 
-  const showAlert = () => {
-    alert('Click')
-  }
+  // const showAlert = () => {
+  //   alert('Click')
+  // }
 </script>
 
 <template>
