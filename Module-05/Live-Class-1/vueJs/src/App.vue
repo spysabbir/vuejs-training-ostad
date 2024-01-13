@@ -1,14 +1,15 @@
 <script setup>
-  import Todo from './components/Todo.vue';
+  // import Todo from './components/Todo.vue';
   import Reactivity from './components/Reactivity.vue'
-  const numbers = ['A', 'B', 'C', 'D', 'E']
 
-  const persons = {
-    name: 'Sabbir Ahammed',
-    age: 25,
-    gender: 'Male',
-    profession: 'VueJs Developer'
-  }
+  // const numbers = ['A', 'B', 'C', 'D', 'E']
+
+  // const persons = {
+  //   name: 'Sabbir Ahammed',
+  //   age: 25,
+  //   gender: 'Male',
+  //   profession: 'VueJs Developer'
+  // }
 </script>
 
 <template>
@@ -35,7 +36,6 @@
     <section class="mt-10">
       <Reactivity></Reactivity>
     </section>
-
   </section>
 </template>
 

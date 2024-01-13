@@ -1,5 +1,5 @@
 <script setup>
-  import { ref, reactive } from 'vue'
+import { ref, reactive } from 'vue'
 
 // const bgOrange = 'bg-orange-400'
 // const bgIndigo = 'bg-indigo-400'
@@ -515,7 +515,6 @@ function btnClick() {
         </div>
       </div>
     </section>
-
  </section>
 </template>
 

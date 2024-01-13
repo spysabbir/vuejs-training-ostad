@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue';
+
 const fullImg = ref('https://images.pexels.com/photos/19737002/pexels-photo-19737002/free-photo-of-stairs.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')
 const carouselImages = [
   {

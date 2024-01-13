@@ -48,7 +48,6 @@ const buttonClicked = () => {
       </button>
     </div>
 
-
     <form @submit.prevent action="https://google.com/search">
       <p>useing @submit.prevent</p>
       <input type="text" name="q" class="bg-gray-500 p-2 mx-2" value="vuejs">
@@ -64,4 +63,5 @@ const buttonClicked = () => {
 </template>
 
 <style scoped>
+
 </style>

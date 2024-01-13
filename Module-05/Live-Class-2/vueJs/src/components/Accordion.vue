@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+
 const accordions = ref([
   {
     heading: "What is term?",
@@ -22,7 +23,6 @@ const accordions = ref([
     isOpen: false,
   }
 ])
-
 </script>
 
 <template>

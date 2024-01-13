@@ -1,9 +1,9 @@
 <script setup>
     import { ref } from "vue"
     const messages = ref([
-        'Hi Whats up',
-        'Hi Whats up',
-        'Hi Whats up',
+        'Hi Whats up 1',
+        'Hi Whats up 2',
+        'Hi Whats up 3',
     ])
     const msg = ref("")
 
@@ -14,7 +14,7 @@
 </script>
 
 <template>
-<div class="py-6 h-screen">
+<section class="py-6 h-screen">
     <div class="flex border border-grey rounded shadow-lg h-full">
         <!-- Left -->
         <div class="w-1/3 border flex flex-col">
@@ -145,7 +145,7 @@
             </div>
 
             <!-- Messages -->
-            <div class="flex-1 overflow-auto" style="background-color: #bd7d3d" id="messageBox">
+            <div class="flex-1 overflow-auto" style="background-color: #bd7d3d">
                 <div class="py-2 px-3">
                     <div class="flex justify-center mb-2">
                         <div class="rounded py-2 px-4" style="background-color: #29a0cf">
@@ -241,7 +241,7 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 </template>
 
 <style scoped>

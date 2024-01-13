@@ -56,7 +56,6 @@
     <section class="mt-10">
       <Accordion></Accordion>
     </section>
-
   </section>
 </template>
 
