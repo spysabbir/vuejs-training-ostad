@@ -1,0 +1,30 @@
+Assignment
+Create a tasks list with times(in minutes) required to complete that task.
+
+
+
+Store tasks in a reactive array
+The array will be like this
+[{ name: ‘Task 1’, time: 60}, { name: ‘Task 2’, time: 75}, …]
+Show this array in UI using loop.
+There will be a button with each task. On click that button that task will be removed from UI.
+There will be a button to add task in this page.
+Onclick add task button a popup will appear.
+
+
+
+ The popup will have a form, there will be two input fields: 
+
+
+
+Task Name (type: text)
+Time (type: number)
+In the form there will be a submit button. Onclick this button this task will be added to existing reactive array of tasks and the popup will be closed.
+
+
+Submission Instruction: 
+
+
+
+Create a github repository for this project and push project in this repository.
+Submit the link of the github repository

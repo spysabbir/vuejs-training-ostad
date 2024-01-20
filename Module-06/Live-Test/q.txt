@@ -1,0 +1,52 @@
+Have given a reactive list of objects.
+
+
+
+const tasks = ref([{
+    name: ‘Task 1’,
+    time: 30
+}, {
+    name: ‘Task 2’,
+    time: 40
+}, {
+    name: ‘Task 3’,
+    time: 60
+}, {
+    name: ‘Task 4’,
+    time: 45
+}, {
+    name: ‘Task 5’,
+    time: 50
+}]);
+
+
+
+Show this list in UI
+
+
+
+There will be an edit button for each object of list
+
+
+
+On click this button a popup will appear containing a form to update that specific object.
+ This form will have two input fields
+
+
+
+name (type: text)
+time (type: number)
+
+
+
+A submit button. On click this button the reactive list given will be updated. 
+
+
+
+
+Submission Instruction: 
+
+
+
+Create a GitHub repository for this project and push the project in this repository.
+Submit the link of the GitHub repository
