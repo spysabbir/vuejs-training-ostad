@@ -1,6 +1,6 @@
 <script setup>
-import SignIn from './components/SignIn.vue'
-import Form from './components/Form.vue'
+  // import SignIn from './components/SignIn.vue'
+  import Form from './components/Form.vue'
 </script>
 
 <template>
@@ -14,4 +14,5 @@ import Form from './components/Form.vue'
 </template>
 
 <style scoped>
+
 </style>
