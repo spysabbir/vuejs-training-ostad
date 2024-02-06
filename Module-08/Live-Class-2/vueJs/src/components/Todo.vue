@@ -1,23 +1,20 @@
 <script setup>
     import { ref } from 'vue'
-    import todos from './../assets/todo'
     import fun from './../function'
+    import todos from './../assets/todo'
 
     const getStorageData = () => {
-        todos.length = 0;
+        todos.splice(0, todos.length);
         const storedTodos = fun.getTodosStorage();
         storedTodos.forEach(todo => {
-            todos.push(todo)
+            todos.push(todo);
         });
-    }
+    };
     getStorageData();
 
     const activeTab = ref('all')
     const getTodos = () => {
-        if (activeTab.value === 'all') {
-            return todos;
-        }
-        return todos.filter(todo => todo.status === activeTab.value);
+        return activeTab.value === 'all' ? todos : todos.filter(todo => todo.status === activeTab.value);
     };
     const newTodoName = ref('')
     const addNewTodo = () => {
@@ -91,7 +88,7 @@
             </form>
         </div>
         <div class="my-5 border p-2 rounded">
-            <div v-for="todo in getTodos()" :key="todo.id" class="border-b mb-1 transition ease-linear duration-150" :class="'complete' == todo.status ? 'border-green-200 py-3 px-2 border-l-4 border-l-green-300 bg-gradient-to-r from-green-100 to-transparent hover:from-green-200' : 'border-indigo-200 py-3 px-2 border-l-4 border-l-indigo-300 bg-gradient-to-r from-indigo-100 to-transparent hover:from-indigo-200'">
+            <div v-for="todo in getTodos()" :key="todo.id" class="border-b mb-1 transition ease-linear duration-150" :class="{ 'border-green-200 py-3 px-2 border-l-4 border-l-green-300 bg-gradient-to-r from-green-100 to-transparent hover:from-green-200': todo.status === 'complete', 'border-indigo-200 py-3 px-2 border-l-4 border-l-indigo-300 bg-gradient-to-r from-indigo-100 to-transparent hover:from-indigo-200': todo.status !== 'complete' }">
                 <div class="flex justify-between items-center" v-if="editTodoId != todo.id">
                     <div @click="changeTodoStatus(todo.id)">
                         <svg v-if="'complete' == todo.status" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500 hover:text-green-600 hover:cursor-pointer">
@@ -129,7 +126,3 @@
         <p class="text-xs text-slate-500 text-center">Total {{ todos.length }}, Pending {{ todos.filter(todo => todo.status === 'pending').length }}, Complete {{ todos.filter(todo => todo.status === 'complete').length }}</p>
     </div>
 </template>
-
-<style scoped>
-
-</style>

@@ -19,6 +19,23 @@
 </script>
 
 <template>
+    <h1> Module 08 || Live Class 1 </h1>
+    <h2>Form and Form Components</h2>
+    <p>
+      <strong>Note: </strong>
+        Form discussion,
+        Single value model,
+        Object value model,
+        Object value model with loop,
+        Checkbox with multiple and single data,
+        Simple Quiz project with radio,
+        Simple select,
+        Selected object edit with v-model,
+        Repeater input fields,
+        v-model.number,
+        v-model.trim
+    </p>
+
   <div class="container mx-auto">
     <div class="flex flex-col">
       <!-- <span>Output: {{ input }}</span> -->
