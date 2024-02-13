@@ -23,6 +23,21 @@
 </script>
 
 <template>
+  <h1> Module 09 || Live Class 1 </h1>
+    <h2>Life Cycle Hooks</h2>
+    <p>
+      <strong>Note: </strong>
+      Component life cycle,
+      Life cycle hierarchy (chart),
+      Difference between option API hooks and composition API hooks,
+      onBeforeMount(),
+      onMounted(),
+      onBeforeUpdate(),
+      onUpdated(),
+      onBeforeUnmount() (child),
+      onUnmounted() (child),
+    </p>
+
   <div class="container mx-auto">
     <div class="mb-5 mx-auto">
       <h1>Parent</h1>

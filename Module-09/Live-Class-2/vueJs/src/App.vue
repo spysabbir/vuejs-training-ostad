@@ -63,6 +63,17 @@
 </script>
 
 <template>
+  <h1> Module 09 || Live Class 2 </h1>
+    <h2>Basic Components, Props And Props Validation</h2>
+    <p>
+      <strong>Note: </strong>
+      Markup breaks into Component concepts ,
+      Basic props pass and render using it,
+      Typed props,
+      Nested components with props,
+      Props are read-only,
+    </p>
+
     <OurTeam :teamMembers="teamMembers"/>
 </template>
 
