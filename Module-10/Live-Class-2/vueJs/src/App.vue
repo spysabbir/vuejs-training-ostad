@@ -33,6 +33,13 @@
 </script>
 
 <template>
+  <h1> Module 10 || Live Class 2 </h1>
+    <h2>Another Project</h2>
+    <p>
+      <strong>Note: </strong>
+      A simple blog project using placeholder API with previously covered topics
+    </p>
+
   <div class="container mx-auto w-[1000px] p-5">
     <div class="flex justify-between items-center mb-6">
       <h1 class="font-bold text-xl mb-2">Simple Blog</h1>
