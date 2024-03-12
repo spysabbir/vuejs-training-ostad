@@ -1,0 +1,31 @@
+Develop a web application using Vue 3 with the following functionalities:
+
+=> Create a calculator with basic arithmetic operations (+, -, *, /). Implement this functionality within a separate component named 'Calculator'.
+
+=> The calculator component should consist of:
+
+
+=> Two input fields for entering numeric values.
+=> One input field for selecting the arithmetic operation (+, -, *, /).
+=> Upon submission, display the result below the submit button.
+
+
+ 
+
+
+=> Implement a separate component to fetch and display data from an API.
+=> Utilize the following API: https://animechan.xyz/api/random
+=> This API returns a JSON object with the following format:
+{
+    id: "",
+    quote: "",
+    anime: "",
+    character: ""
+}
+=> Display the retrieved JSON object data.
+
+
+ 
+
+
+Note: The provided API generates random text upon each call, so keep this in mind during development to avoid confusion.
