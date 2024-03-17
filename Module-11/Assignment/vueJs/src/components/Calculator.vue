@@ -11,9 +11,9 @@ const calculate = () => {
   const number2 = parseFloat(num2.value);
 
   if (!number1) {
-    alert('Input 1 field Value Not Found!')
+    alert('Number 1 field Value Not Found!')
   } else if(!number2) {
-    alert('Input 2 field Value Not Found!')
+    alert('Number 2 field Value Not Found!')
   } else {
     switch (operation.value) {
       case '+':
