@@ -17,8 +17,21 @@ const addNewTodo = () => {
 </script>
 
 <template>
-  <div class="w-[800px] mx-auto bg-slate-400 mt-10 p-5 rounded">
+  <h1> Module 12 || Live Class 2 </h1>
+  <h2>State Management Using Pinia</h2>
+  <p>
+    <strong>Note: </strong>
+    1. What is pinia
+    2. Why is pinia
+    3. Pinia vs Reactive comparison
+    4. Basic Pinia demonstrate
+      4.1 Store
+      4.2 State
+      4.3 Getters
+      4.4 Actions
+  </p>
 
+  <div class="w-[800px] mx-auto bg-slate-400 mt-10 p-5 rounded">
     <div data-element="fields" data-stacked="false" class="flex items-center w-full max-w-md mb-3 seva-fields formkit-fields">
       <div class="relative w-full mr-3 formkit-field">
         <label class="mb-2 font-medium text-gray-900 dark:text-gray-300">New Todo</label>

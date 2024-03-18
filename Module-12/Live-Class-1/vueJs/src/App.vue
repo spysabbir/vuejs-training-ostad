@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue'
 import Sidebar from './components/Sidebar.vue'
 import Navigation from './components/Navigation.vue'
 import Player from './components/Player.vue'
@@ -8,9 +7,12 @@ engine.initialize()
 </script>
 
 <template>
+  <h1> Module 12 || Live Class 1 </h1>
+  <h2>More Data Reactivity, Working With External API</h2>
+
   <div class="player">
     <Navigation />
-    <div class="main flex sm:flex-col sm:flex-col-reverse lg:flex-row">
+    <div class="main flex flex-row">
       <Sidebar />
       <Player />
     </div>
