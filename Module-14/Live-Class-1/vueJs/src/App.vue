@@ -5,6 +5,9 @@ import AuthState from './data/authstate';
 </script>
 
 <template>
+   <h1> Module 14 || Live Class 1 </h1>
+  <h2>User Authentication System</h2>
+
   <header>
     <div class="w-[1000px] mx-auto bg-slate-400 rounded p-5 mt-5">
       <nav>
