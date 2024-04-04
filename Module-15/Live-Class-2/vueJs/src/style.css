@@ -1,0 +1,26 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import "./assets/fontawesome.css";
+@import "./assets/sidebar.css";
+@import "./assets/animate.min.css";
+
+.text-green{
+    color:#41b883 !important;
+}
+
+.card{
+    border: none !important;
+}
+
+.btn-success{
+    background: #41b883 !important;
+    border-color:  #41b883 !important;
+}
+
+.editor{
+    height: 300px !important;
+}
