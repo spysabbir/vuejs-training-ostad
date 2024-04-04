@@ -13,6 +13,8 @@ import VueMaterial from './components/VueMaterial.vue';
 </script>
 
 <template>
+  <h1> Module 15 || Live Class 1 </h1>
+  <h2>External Ui Libraries</h2>
   <!-- <Vuetify /> -->
   <!-- <ElementPlus /> -->
   <!-- <PrimeVue /> -->
@@ -23,7 +25,7 @@ import VueMaterial from './components/VueMaterial.vue';
   <!-- <BarChart /> -->
   <!-- <Chart /> -->
   <!-- <BootstrapVue /> -->
-  <VueMaterial />
+  <!-- <VueMaterial /> -->
 </template>
 
 <style scoped>
