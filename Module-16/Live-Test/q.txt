@@ -1,0 +1,7 @@
+Create a simple website for a fictional cafe with two pages:
+
+ A home page and a menu page. 
+
+The home page should include a welcome message and a button to navigate to the menu page. 
+The menu page should display a list of items available at the cafe, each item with a clickable element (e.g., a button or a link).
+When a user clicks on an item, display a simple alert message with the item name.
