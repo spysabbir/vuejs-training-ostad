@@ -93,10 +93,6 @@ const routes = [
     }
 ]
 
-// const isAuthenticated = () => {
-//     return localStorage.getItem('token')=='123'
-// }
-
 const router = createRouter({
     history: createWebHistory(),
     routes

@@ -6,7 +6,7 @@ const auth = authStore
 <template>
   <header class="bg-black border-b-light-100 border-b h-20 text-white items-center flex p-5 text-2xl">
     <section class="flex justify-between w-full">
-      <h1>Stroefront Ecommerce (<span>{{ auth.user?.name }}</span>)</h1>
+      <h1>eCommerce (<span>{{ auth.user?.name }}</span>)</h1>
       <p>
         <button v-if="auth.isAuthenticated" @click="auth.logout()" class="bg-blue-500 hover:bg-blue-700 text-white text-sm py-2 px-4 rounded">
           <span>Logout</span>
@@ -25,4 +25,5 @@ const auth = authStore
   <footer></footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>

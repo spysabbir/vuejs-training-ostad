@@ -1,7 +1,6 @@
 <script setup>
 import { onBeforeMount } from 'vue';
 import { order } from '../store/order'
-import { authStore } from '../store/store'
 
 onBeforeMount(() => {
     order.fetchOrders()

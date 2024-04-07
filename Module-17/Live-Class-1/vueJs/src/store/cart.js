@@ -27,7 +27,6 @@ const cart = reactive({
         }
         this.saveCartInLocalStorage()
     },
-    removeItem(product){},
     emptyCart(){
         this.items = {}
         this.saveCartInLocalStorage()

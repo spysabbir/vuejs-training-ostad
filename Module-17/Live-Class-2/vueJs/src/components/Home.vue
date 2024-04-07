@@ -1,4 +1,3 @@
-//create home component
 <script setup>
 import {authStore} from '../store/store';
 </script>

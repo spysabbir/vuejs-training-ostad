@@ -1,4 +1,4 @@
-import { ref, reactive } from 'vue'
+import { reactive } from 'vue'
 import router from '../router'
 import { cart } from './cart'
 import { wishlist } from './wishlist'

@@ -1,5 +1,4 @@
 import { reactive } from 'vue'
-import { authStore } from './store'
 const wishlist = reactive({
     items: [],
     isWishListed(product) {
