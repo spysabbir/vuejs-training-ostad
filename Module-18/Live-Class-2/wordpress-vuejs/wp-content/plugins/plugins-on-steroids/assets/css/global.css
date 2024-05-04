@@ -1,0 +1,61 @@
+#adminmenu .toplevel_page_pos-settings div.wp-menu-image {
+  margin-top: 8px;
+}
+
+
+/* #adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+    width: 190px;
+    background-color: #1d2327;
+}
+
+#wpcontent, #wpfooter {
+    margin-left: 190px;
+} */
+
+/*only for promotional style*/
+.pos-promotion-notice{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px 15px 40px;
+  background: #781441;
+  margin-top: 40px;
+  margin-right: 20px;
+  position: relative;
+}
+.pos-promotion-notice p {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.pos-promotion-notice .pos-promotion-title span {
+  color: yellow;
+  font-weight: 600;
+}
+
+.pos-promotion-notice .pos-promotion-btn a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px;
+  background: #fafafa;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.pos-promotion-notice .pos-promotion-btn a:hover {
+  background-color: #f58750;
+  color:#ffffff;
+}
+
+.pos-promotion-notice  .pos-dismiss-promotion-notice {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #fffefe;
+  padding: 1px 0px 0px 1px;
+  cursor: pointer;
+}
+.pos-promotion-notice .pos-promotion-image img {
+  height: 80px;
+}
