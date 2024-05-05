@@ -1,0 +1,27 @@
+{
+  "name": "form-library",
+  "version": "1.0.0",
+  "type": "module",
+  "files": ["dist"],
+  "main": "dist/form-library.umd.cjs",
+  "module": "dist/form-library.js",
+  "exports": {
+    ".": {
+      "import": "./dist/form-library.js",
+      "require": "./dist/form-library.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite --port=4444",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8"
+  }
+}
