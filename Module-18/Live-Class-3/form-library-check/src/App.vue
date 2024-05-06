@@ -1,10 +1,17 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+
 import { Button, Input } from 'form-library'
 import 'form-library/style.css'
 </script>
 
 <template>
+  <h3>Module 18 || Live Class 3</h3>
+  <p>Extra Class on Creating A Reusable Component Library</p>
+  <h4>Form Library Build</h4>
+  <h5>Input Component</h5>
+  <h5>Button Component</h5>
+
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -15,13 +22,11 @@ import 'form-library/style.css'
   </div>
   <HelloWorld msg="Vite + Vue" />
 
-
   <Input label="Name" type="text" placeholder="Enter your name" />
   <Input label="Email" type="email" placeholder="Enter your email" />
   <Input label="Password" type="password" placeholder="Enter your password" />
   <Button text="Submit" :url="false" />
   <Button text="Click" url="https://spysabbir.com" />
-
 
 </template>
 

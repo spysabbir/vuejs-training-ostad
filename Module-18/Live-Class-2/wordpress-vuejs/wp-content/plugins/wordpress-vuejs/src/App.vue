@@ -25,7 +25,6 @@ fetch(wordpress_vuejs.ajax_url + '?action=vuejs_data&nonce=' + wordpress_vuejs.n
 //     console.log([ req, status, error ]);
 //   }
 // });
-
 </script>
 
 <template>

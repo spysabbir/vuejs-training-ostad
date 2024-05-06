@@ -3,6 +3,8 @@ import { Link } from '@inertiajs/vue3'
 </script>
 
 <template>
+    <h1>Module 18 || Live Class 1</h1>
+    <p>Vuejs with Laravel (Inertiajs)</p>
     <main>
         <header>
             <Link href="/">Home</Link>

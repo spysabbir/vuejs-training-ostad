@@ -9,7 +9,6 @@ Author URI: http://spysabbir.com
 License: GPL2
 */
 
-
 add_action('admin_menu', 'admin_menu');
 function admin_menu() {
     global $submenu;
