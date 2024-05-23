@@ -7,7 +7,7 @@ useHead({
   bodyAttrs: {
     class: 'test'
   },
-  script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+  script: [ { innerHTML: 'console.log(\'Module 19 || Live Class 1\')' } ]
 })
 useSeoMeta({
   title: 'My Amazing Site',
@@ -22,6 +22,7 @@ useSeoMeta({
 <template>
   <div>
     <h1>Hello Nuxtjs</h1>
+    <h2>Module 19 || Live Class 1</h2>
     <ul>
         <li><NuxtLink to="/">Home</NuxtLink></li>
         <li><NuxtLink to="/about">About</NuxtLink></li>

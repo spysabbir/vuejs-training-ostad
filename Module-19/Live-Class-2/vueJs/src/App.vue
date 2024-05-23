@@ -1,7 +1,7 @@
 <template>
 <div class="container mx-auto bg-gray-400 p-5 rounded mt-5">
     <h1 class="text-4xl text-center">Hello Vue 3</h1>
-    <p class="text-center">This is a simple Vue 3 project</p>
+    <p class="text-center">Module 19 || Live Class 2</p>
 
     <hr class="my-5">
 
